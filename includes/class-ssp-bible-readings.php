@@ -181,14 +181,14 @@ class SSP_Bible_Readings {
 	}
 
 	/**
-	 * Main SSP_Transcripts Instance
+	 * Main SSP_Bible_Readings Instance
 	 *
-	 * Ensures only one instance of SSP_Transcripts is loaded or can be loaded.
+	 * Ensures only one instance of SSP_Bible_Readings is loaded or can be loaded.
 	 *
 	 * @since 1.0.0
 	 * @static
-	 * @see SSP_Transcripts()
-	 * @return Main SSP_Transcripts instance
+	 * @see SSP_Bible_Readings()
+	 * @return Main SSP_Bible_Readings instance
 	 */
 	public static function instance ( $file = '', $version = '1.0.0' ) {
 		if ( is_null( self::$_instance ) ) {
